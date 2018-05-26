@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>my-vux</title><link href=./static/css/app.f16858b8cb0c200ba2be36b6baa0e979.css rel=stylesheet></head><body style=overflow-x:hidden><div id=app-box></div><script>(function(doc, win){ 
+				 var docE1 = doc.documentElement, 
+				 resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', 
+				 
+				 recalc = function(){ 
+					 var clientWidth = docE1.clientWidth; 
+					 if(!clientWidth) return; 
+					 docE1.style.fontSize = 100*(clientWidth/320) + 'px';  
+				 }; 
+				 
+				 if (!doc.addEventListener) return; 
+				 win.addEventListener(resizeEvt,recalc,false); 
+				 doc.addEventListener('DOMContentLoaded',recalc,false); 
+			 })(document,window);</script><script type=text/javascript src=./static/js/manifest.7abf3b0354a7e3596b7d.js></script><script type=text/javascript src=./static/js/vendor.edc32198bbb4131c8983.js></script><script type=text/javascript src=./static/js/app.6c4e02e3eb745a74ad5e.js></script></body></html>
